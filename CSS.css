@@ -1,0 +1,343 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+body {
+  width: 1440px;
+  height: 1080px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  font-size: 18px;
+}
+.container {
+  width: 45.9375rem;
+  height: 32.1875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Hanken Grotesk", sans-serif;
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 1.25rem 0.9375rem 0.625rem 0.625rem hsl(221, 100%, 96%);
+}
+.all-result {
+  width: 23.125rem;
+  height: 32.1875rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1.25rem;
+
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.all-result > h1 {
+  font-size: 1.25rem;
+  color: hsl(221, 100%, 96%);
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.all-result > p:nth-child(2) {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 3.125rem;
+  padding: 5rem;
+  color: white;
+  width: 5.3125rem;
+  height: 5.625rem;
+  border-radius: 120%;
+  text-align: center;
+
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+.all-result > p > span {
+  font-family: "Hanken Grotesk", sans-serif;
+  color: hsl(241, 100%, 89%);
+  font-size: 1.25rem;
+}
+.all-result > h3 {
+  color: white;
+  font-size: 1.5625rem;
+}
+.all-result > p:nth-child(4) {
+  font-size: 0.9375rem;
+  text-align: center;
+  color: hsl(241, 100%, 89%);
+  width: 13.125rem;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+#main-persentage {
+  width: 23.75rem;
+  height: 31.25rem;
+  display: flex;
+  flex-direction: column;
+}
+#main-persentage > h2 {
+  color: hsl(224, 30%, 27%);
+  font-size: 1.875rem;
+  padding: 0.625rem;
+}
+#main-persentage > #all-menu {
+  width: 18.125rem;
+  height: 23.125rem;
+  padding: 1.875rem;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#main-persentage > #all-menu > .menu div {
+  width: 19.6875rem;
+  height: 3.4375rem;
+  display: grid;
+  grid-template-columns: 3.125rem 6.25rem 11.25rem;
+  border-radius: 0.3125rem;
+
+  align-items: center;
+  background-color: white;
+  text-align: center;
+}
+#main-persentage > #all-menu > .menu div > img {
+  text-align: center;
+  padding: 1.25rem;
+}
+#main-persentage > #all-menu > #btn-continue {
+  align-items: center;
+  justify-content: center;
+  width: 19.6875rem;
+  height: 3.75rem;
+  border-radius: 2.1875rem;
+  border: none;
+  cursor: pointer;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  font-size: 1.25rem;
+}
+#main-persentage > #all-menu > #btn-continue:hover {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+#main-persentage > #all-menu > .menu {
+  width: 18.125rem;
+  height: 17.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#main-persentage > #all-menu > .menu > div:nth-child(1) {
+  background-color: hsl(358, 100%, 83%);
+}
+#main-persentage > #all-menu > .menu > div:nth-child(1) > h3 {
+  color: hsl(0, 100%, 67%);
+  font-size: 1.125rem;
+}
+
+#main-persentage > #all-menu > .menu > div > p {
+  color: hsl(224, 30%, 27%);
+  font-size: 1.125rem;
+}
+#main-persentage > #all-menu > .menu > div > p > span {
+  font-size: 1.125rem;
+  color: hsl(241, 100%, 89%);
+}
+
+#main-persentage > #all-menu > .menu > div:nth-child(2) {
+  background-color: hsl(60, 100%, 85%);
+}
+#main-persentage > #all-menu > .menu > div:nth-child(2) > h3 {
+  color: hsl(39, 100%, 56%);
+  font-size: 1.125rem;
+}
+
+#main-persentage > #all-menu > .menu > div:nth-child(3) {
+  background-color: #00ffd5;
+}
+#main-persentage > #all-menu > .menu > div:nth-child(3) > h3 {
+  color: hsl(166, 100%, 37%);
+  font-size: 1.125rem;
+}
+#main-persentage > #all-menu > .menu > div:nth-child(4) {
+  background-color: #88ace0;
+}
+#main-persentage > #all-menu > .menu > div:nth-child(4) > h3 {
+  color: hsl(234, 85%, 45%);
+  font-size: 1.125rem;
+}
+
+@media screen and (max-width: 375px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: "Hanken Grotesk", sans-serif;
+  }
+  body {
+    width: 375px;
+    height: 809px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(221, 100%, 96%);
+  }
+  .container {
+    width: 375px;
+    height: 810px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Hanken Grotesk", sans-serif;
+    background-color: white;
+    border-radius: 20px;
+  }
+  .all-result {
+    width: 370px;
+    height: 360px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px 0px 40px 40px;
+
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  }
+  .all-result > h1 {
+    font-size: 18px;
+    color: hsl(221, 100%, 96%);
+    font-family: "Hanken Grotesk", sans-serif;
+  }
+  .all-result > p:nth-child(2) {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 35px;
+    padding: 50px;
+    color: white;
+    width: 55px;
+    height: 50px;
+    border-radius: 120%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  }
+  .all-result > p > span {
+    font-family: "Hanken Grotesk", sans-serif;
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+  }
+  .all-result > h3 {
+    color: white;
+    font-size: 18px;
+  }
+  .all-result > p:nth-child(4) {
+    font-size: 15px;
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+    width: 210px;
+    font-family: "Hanken Grotesk", sans-serif;
+  }
+  #main-persentage {
+    width: 360px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+  }
+  #main-persentage > h2 {
+    color: hsl(224, 30%, 27%);
+    font-size: 25px;
+    padding: 10px;
+  }
+  #main-persentage > #all-menu {
+    width: 320px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  #main-persentage > #all-menu > .menu div {
+    width: 310px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 50px 100px 200px;
+    border-radius: 10px;
+
+    align-items: center;
+    background-color: white;
+    text-align: center;
+  }
+  #main-persentage > #all-menu > .menu div > img {
+    text-align: center;
+    padding: 20px;
+  }
+  #main-persentage > #all-menu > #btn-continue {
+    align-items: center;
+    justify-content: center;
+    width: 315px;
+    height: 55px;
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+  }
+  #main-persentage > #all-menu > #btn-continue:hover {
+    background-color: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  }
+
+  #main-persentage > #all-menu > .menu {
+    width: 290px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  #main-persentage > #all-menu > .menu > div:nth-child(1) {
+    background-color: hsl(358, 100%, 83%);
+  }
+  #main-persentage > #all-menu > .menu > div:nth-child(1) > h3 {
+    color: hsl(0, 100%, 67%);
+    font-size: 18px;
+  }
+
+  #main-persentage > #all-menu > .menu > div > p {
+    color: hsl(224, 30%, 27%);
+    font-size: 15px;
+  }
+  #main-persentage > #all-menu > .menu > div > p > span {
+    font-size: 15px;
+    color: hsl(241, 100%, 89%);
+  }
+
+  #main-persentage > #all-menu > .menu > div:nth-child(2) {
+    background-color: hsl(60, 100%, 85%);
+  }
+  #main-persentage > #all-menu > .menu > div:nth-child(2) > h3 {
+    color: hsl(39, 100%, 56%);
+    font-size: 18px;
+  }
+
+  #main-persentage > #all-menu > .menu > div:nth-child(3) {
+    background-color: #00ffd5;
+  }
+  #main-persentage > #all-menu > .menu > div:nth-child(3) > h3 {
+    color: hsl(166, 100%, 37%);
+    font-size: 18px;
+  }
+  #main-persentage > #all-menu > .menu > div:nth-child(4) {
+    background-color: #88ace0;
+  }
+  #main-persentage > #all-menu > .menu > div:nth-child(4) > h3 {
+    color: hsl(234, 85%, 45%);
+    font-size: 18px;
+  }
+}
